@@ -3,6 +3,18 @@ from app.models.db import get_posts, search_post
 
 module = Blueprint('api', __name__)
 
+@module.route('/')
+def home():
+    """
+    This is the home page
+    """
+    return 
+    """ Welcome to The bioinforamtics,
+        To see posts ordered by viewcount, go here https://bioinformatics-test.herokuapp.com/order?order=viewcount
+        To see posts ordered by score, go here https://bioinformatics-test.herokuapp.com/order?order=score
+        To search posts go here https://bioinformatics-test.herokuapp.com/search?search=If you have issue with memory and dealing with large object
+    """
+
 @module.route('/order')
 def fetch_posts():
     """
