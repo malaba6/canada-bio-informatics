@@ -8,8 +8,7 @@ def home():
     """
     This is the home page
     """
-    return 
-    """ Welcome to The bioinforamtics,
+    return """ Welcome to The bioinforamtics,
         To see posts ordered by viewcount, go here https://bioinformatics-test.herokuapp.com/order?order=viewcount
         To see posts ordered by score, go here https://bioinformatics-test.herokuapp.com/order?order=score
         To search posts go here https://bioinformatics-test.herokuapp.com/search?search=If you have issue with memory and dealing with large object
